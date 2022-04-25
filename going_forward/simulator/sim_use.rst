@@ -1,7 +1,7 @@
-Using the Simulator
+시뮬레이터 사용하기
 ====================
 
-Driving
+드라이빙
 -----------------
 Try controlling the racecar manually using your keyboard. Press ``K`` to give driving control to the keyboard, you should see the following in your terminal:
 

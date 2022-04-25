@@ -1,35 +1,35 @@
-Linux/ROS Installation
+Linux/ROS 설치
 ============================
 
-ROS only runs natively in Linux so we are only supporting using the simulator in Ubuntu at this time. If you do not have ROS Melodic installed, follow the instructions from `<http://wiki.ros.org/melodic/Installation/Ubuntu>`_. 
+시뮬레이터는 ROS을 사용하므로 Ubuntu Linux가 설치된 PC가 필요하다. Ubuntu 20.04 버전과 ROS Noetic이 필요하다. 설치에 관한 정보는 `<http://wiki.ros.org/noetic/Installation>`_ 를 참고하자.
 
-Dependencies
+의존성
 ------------------
-You will need the following dependences:
+다음과 같은 의존성을 가진다:
   
   - tf2_geometry_msgs
   - ackermann_msgs
   - joy
   - map_server
 
-Install them using
+설치 방법
 
 .. code-block:: bash
   
-  sudo apt-get install ros-melodic-tf2-geometry-msgs ros-melodic-ackermann-msgs ros-melodic-joy ros-melodic-map-server
+  sudo apt-get install ros-noetic-tf2-geometry-msgs ros-melodic-ackermann-msgs ros-melodic-joy ros-melodic-map-server
 
-The full list of dependencies can be found in the ``package.xml`` file.
+의존하는 전체 목록은 ``package.xml`` 파일에서 확인할 수 있다.
 
-Package
+패키지(Package)
 ------------
-To install the simulator package, clone the simulator repository into your catkin workspace:
+시뮬레이터 패키지를 설치하기 위해서 시뮬레이터 저장소를 여러분의 catkin workspace에 clone한다. :
 
 .. code-block:: bash
 
   cd ~/catkin_ws/src
   git clone https://github.com/f1tenth/f1tenth_simulator.git
 
-Then run catkin_make to build it:
+다음으로 build하기 위해서 catkin_make를 실행:
 
 .. code-block:: bash
 
@@ -37,18 +37,18 @@ Then run catkin_make to build it:
   catkin_make
   source devel/setup.bash
 
-Quick Start
+바로 시작하기
 ---------------
-To run the simulator on its own, run:
+시뮬레이터를 실행하기 위해서 아래를 실행:
 
 .. code-block:: bash
 
   roslaunch f1tenth_simulator simulator.launch
 
-This will launch everything you need for a full simulation: roscore, the simulator, a preselected map, a model of the racecar, and the joystick server.
+시뮬레이션에 필요한 모든 것들을 launch 시킨다. : roscore, 시뮬레이터, map, 레이싱카 모델, 조이스틱 서버
 
 .. figure:: img/sim_install.png
   :align: center
 
-  Full simulation launched.
+  시뮬레이션이 실행되었다.
 

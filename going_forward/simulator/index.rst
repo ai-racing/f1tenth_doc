@@ -1,14 +1,14 @@
-F1TENTH Simulator
+AI-Racing 시뮬레이터
 ================================================
 
-This page goes over how to install the F1TENTH simulator. This simulator is for single car, has ROS in the loop, and does not have camera integration. If you are looking for a simulator that has multi agent capabilities and uses the OpenAI gym environment, you can find that `here <https://github.com/f1tenth/f1tenth_gym>`_.
+이 페이지에서는 AI-Racing 시뮬레이터를 설치하는 방법에 대해서 알아보자. 이 시뮬레이터는 ROS로 동작하는 단일 차량에 대해서 설정하며 카메라 기능을 추가하지 않는다. 시뮬레이터 내에 여러 차량 즉 멀티 에이전트가 가능한 환경에 대해서는 OpenAI gym 환경을 사용하며 `여기 <https://github.com/f1tenth/f1tenth_gym>`_ 를 참고하자.
 
 .. image:: img/basic_sim.gif
   :align: center
 
 .. toctree::
    :maxdepth: 1
-   :caption: Installation
+   :caption: 설치
    :name: sim-install
 
    sim_install
