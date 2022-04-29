@@ -3,20 +3,20 @@
 
 드라이빙
 -----------------
-Try controlling the racecar manually using your keyboard. Press ``K`` to give driving control to the keyboard, you should see the following in your terminal:
+레이싱카를 키보드를 사용하여 수동으로 조정해보자. 조정하기 위서 키보드의 ``K`` 키를 누르면 터미널에서 다음과 같이 보인다.:
 
 
 .. figure:: img/sim_keyboard.png
   :align: center
 
-Then, drive using the standard WASD keys:
+다음으로 표준 WASD 키를 사용하여 조정:
 
-	- ``W`` drives the car forward
-	- ``A`` steers to the left 
-	- ``S`` drives it backwards
-	- ``D`` steers to the right. 
+	- ``W`` 차량 전진
+	- ``A`` 핸들 왼쪽으로
+	- ``S`` 차량 후진
+	- ``D`` 핸들 오른쪽으로
 
-Press ``spacebar`` to bring the car to a stop. 
+``스페이스바``를 눌러서 차량 멈추기
 
 .. note::
 
