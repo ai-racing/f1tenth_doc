@@ -20,18 +20,18 @@
 
 .. note::
 
-	Be aware that if you crash, the keyboard will be turned off, and you’ll have to press ``K`` again to turn it back on. Also, it can only handle one key press at a time, so holding down multiple keys at once does not work. Lastly, pressing ``A`` or ``D`` will steer to a fixed angle, and the only way to straighten out is with ``spacebar``.
+	만약 충돌하면 키보드로 제어가 꺼지게 되며 다시 돌아오려면 ``K`` 키를 눌러야 한다. 한 번에 하나의 키만 누르는 것이 허용되므로 동시에 여러 키를 누르면 동작하지 않는다. 마지막으로 ``A``나 ``D``를 누르면 고정 각도로 핸들을 돌리게 된다. 똑바로 맞추려면  ``스페이스바``를 누르면 된다.
 
-The controls are a bit tricky, but hopefully you won't have to do too much manual driving!
+제어가 약간 어려울 수 있으므로 수동 조정만 너무 많이 하지 않는 것이 좋다.
 
-If you are using a joystick, make sure the correct axis is set in params.yaml for steering and acceleration- this changes between different joysticks.
+조이스틱을 사용한다면 각각의 축이 params.yaml에 제대로 설정되어 있어야 핸들 조향이나 가속이 제대로 동작한다. 조이스틱을 바꾸면 이 값도 바뀌게 된다.
 
 .. figure:: img/sim_keyboard2.gif
 	:align: center
 
-Instant Pose Setting
+순간 Pose 설정(Instant Pose Setting)
 -----------------------
-A useful function of the simulator is that you can instantly move the car without driving it to its new location. To do this, click the ``2D Pose Estimate`` pose button at the top of the rViz window, and then click the desired location on the track to move the car there.
+시뮬레이터의 유용한 기능은 특정 위치로 드라이빙하지 않고도 차량을 이동시킬 수 있다는 것이다. 이렇게 하기 위해서 rViz 창의 맨 위에 있는 ``2D Pose Estimate`` pose 버튼을 클릭하고 나서 원하는 위치에 클릭하면 그 위치로 차량을 이동시킨다.
 
 .. figure:: img/sim_pose.gif
   :align: center
