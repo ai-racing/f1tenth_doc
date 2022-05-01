@@ -1,16 +1,17 @@
 .. _doc_drive_workspace:
 
-3. ROS Workspace Setup
+1. ROS Workspace 설정
 =====================
-**Equipment Required:**
-	* Fully built F1TENTH  vehicle
-	* Pit/Host computer OR
-	* External monitor/display, HDMI cable, keyboard, mouse
+**요구사항:**
+	* 완성된 AI-Racing 차량
+	* Pit/Host 컴퓨터 혹은
+	* 외부 모니터/디스플레이, HDMI 케이블, 키보드, 마우스
 
-**Approximate Time Investment:** 1.5 hour
+**대략 추정 시간:** 1.5 시간
 
-Overview
+개요
 ----------
+ROS를 사용하여 모든 것을 연결하고 차량을 운행시킨다. :ref:`ROS workspace <ros_workspace>` 를 설정하고, 일부 :ref:`udev rules <udev_rules>` 설정 
 We use ROS to connect everything together and ultimately run the car. We'll need to set up the :ref:`ROS workspace <ros_workspace>`, set up some :ref:`udev rules <udev_rules>`, and :ref:`test the lidar connection <lidar_setup>`. Everything in this section is done on the **Jetson NX** so you will need to connect to it via SSH from the **Pit** laptop or plug in the monitor, keyboard, and mouse.
 
 .. _ros_workspace:

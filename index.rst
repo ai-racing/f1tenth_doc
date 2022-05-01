@@ -1,48 +1,30 @@
-F1TENTH - Build Documentation
+AI-Racing - 만들기 문서
 ================================================
 
-Welcome to the official build documentation of `F1TENTH <http://f1tenth.org/>`_.
+`AI-Racing <http://ai-racing.kr/>`_ 공식 만들기 문서입니다.
 
-.. note::
-  We've recently `released a beta version <https://twitter.com/f1tenth/status/1512875081466363914?s=20&t=3hpAxyUDGQT6DpdeUulQuQ>`_ of the driver stack on ROS 2, checkout the new documentation `here <https://f1tenth.readthedocs.io/en/foxy_test/>`_!
+.. note:: 
+  최근에 베타 버전을 출시하였습니다.
 
 .. attention::
-  #. If you are new to F1TENTH, :ref:`Getting Started <doc_build_intro>` is a good place to start.
+  #. 만약 AI-Racing을 처음 접하셨다면, :ref:`Getting Started <doc_build_intro>` 부터 시작하는 것을 추천합니다.
 
-  #. If you already have a working car and the work environment set up:
+  #. 만약 동작하는 차량이 있고 환경 구축을 완료하였다면:
 
- 	- Head over to `Learn <https://f1tenth.org/learn.html>`_ and try out some of the **Labs**.
-  	- Check out :ref:`Simulator <doc_going_forward_intro>` to learn how to install the simulator and implement some fun algorithms.
+ 	- `배우기 <https://ai-racing.kr/learn.html>`_ 에서 **Labs**를 해보세요.
+  	- :ref:`Simulator <doc_going_forward_intro>` 에서 시뮬레이터 설치와 알고리즘을 구현하는 방법에 대해서 배웁니다.
 
 
 .. image:: img/f1tenth_NX.png
   :align: center
 
 ..
-  #. If you don't want to build a physical car and just want to play around in the simulator, head straight to :ref:`Simulation <doc_going_forward_simulation>`.
-
-If you are looking for the old page, you can find it `here <https://f1tenth.github.io/build-old.html>`_. Please note that we no longer provide support for the old build page. If you have questions, please post to the `F1TENTH Discourse <https://f1tenth.discourse.group/>`_.
-
-.. centered:: Talk with other F1TENTH teams on Slack!
-
-.. image:: img/add-to-slack.png
-   :target: https://join.slack.com/t/f1tenth-teams/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU
-   :align: center
+  #. 만약 차량을 직접 만들지 않고 시뮬레이터로 작업하고 싶다면 :ref:`Simulation <doc_going_forward_simulation>`를 참고하세요.
 
 
+.. note:: AI-Racing은 오픈소스 프로젝트로 커뮤니티에 의해서 지속적으로 발전해 나가고 있습니다. 여러분의 피드백과 도움으로 문서를 업데이트하고 있습니다. 필요한 내용이나 추가했으면 하는 내용이 있다면 알려주세요.
 
-.. note:: F1TENTH is an open source project developed by a community of
-          researchers and students. The documentation team can always use your
-          feedback and help to improve the tutorials and class reference. If
-          you don't understand something, or cannot find what you
-          are looking for in the docs, help us make the documentation better
-          by letting us know!
-
-          Submit an issue `GitHub repository <https://github.com/f1tenth/f1tenth_doc>`_.
-
-The table of contents in the sidebar should let you easily access the
-documentation for your topic of interest. You can also use the search function
-in the top left corner.
+사이드바에 목차를 통해서 관심있는 주제로 쉽게 접근할 수 있습니다. 왼쪽 모서리에 있는 검색기능을 통해서도 접근이 가능합니다.
 
 
 .. toctree::

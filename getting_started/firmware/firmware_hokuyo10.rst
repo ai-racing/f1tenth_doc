@@ -1,30 +1,30 @@
 .. _doc_firmware_hokuyo10:
 
-2. Hokuyo 10LX Ethernet Connection Setup
+1. Hokuyo 10LX 이더넷 연결 설정
 ==========================================
 .. note::
-	If you have a 30LX or a LIDAR that connects via USB, you can skip this section.
+	USB로 연결하는 30LX 혹은 LIDAR를 사용한다면 이번 섹션은 넘어가도 된다.
 
-**Equipment Required:**
-	* Fully built F1TENTH vehicle with a Hokuyo 10LX lidar
-	* Pit/Host Laptop OR
-	* External monitor/display, HDMI cable, keyboard, mouse
+**요구사항:**
+	* 차량에 Hokuyo 10LX lidar 장착 완료
+	* Pit/Host 노트북 혹은
+	* 외부 모니터/디스플레이, HDMI 케이블, 키보드, 마우스
 
-**Approximate Time Investment:** 30 minutes
+**예상 투입 시간:** 30 분
 
-Connect to the Jetson NX either via SSH or a wired connection (monitor, keyboard, mouse).
+SSH나 유선 연결(모니터, 키보드, 마우스)로 Jetson NX에 연결하기
 
-In order to utilize the 10LX you must first configure the eth0 network. From the factory the 10LX is assigned the following ip: ``192.168.0.10``. Note that the lidar is on subnet 0.
+10LX를 사용하기 위해서 먼저 eth0 네트워크를 설정해야만 한다. 구입시 10LX에 ``192.168.0.10`` ip가 할당되어 있다. lidar에 subnet 0이다.
 
-Open **Network Configuration** in the Linux GUI on the Jetson NX. In the ipv4 tab, add a route such that the eth0 port is assigned
+Jetson NX의 Linux GUI에서 **Network Configuration**을 연다. ipv4 탭에서 아래와 같이 etho0 port를 추가한다.
 
 	* IP address ``192.168.0.15``
 	* Subnet mask is ``255.255.255.0``
 	* Gateway is ``192.168.0.1``
 
-Call the connection ``Hokuyo``. Save the connection and close the network configuration GUI.
+``Hokuyo`` 연결을 저장하고 GUI를 닫는다.
 
-When you plug in the 10LX make sure that the Hokuyo connection is selected. If everything is configured properly you should now be able to ping ``192.168.0.1``.
+10LX에 연결할때 Hokuyo 연결이 선택되었는지 확인한다. 만약 모든 것이 제대로 설정되었다면 ``192.168.0.1`` 주소로 ping을 해보자.
 
 .. image:: img/hokuyo1.gif
 	:align: center

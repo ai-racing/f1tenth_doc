@@ -1,24 +1,24 @@
-.. _doc_drive:
+ .. _doc_drive:
 
-Driving the F1TENTH Car
+AI-Racing Car 운전하기
 ====================
 
-.. note:: This section assumes that you have already completed :ref:`Building the Car <doc_build_car>`, :ref:`System Configuration <doc_software_setup>`, and :ref:`Installing Firmware <doc_build_car_firmware>`.
+.. note:: 
+   이 섹션은 이미 :ref:`Building the Car <doc_build_car>`, :ref:`System Configuration <doc_software_setup>`, :ref:`Installing Firmware <doc_build_car_firmware>`를 완성했다고 가정한다.
 
-| Vehicle built? ✓ System configured? ✓ Firmware installed? ✓
-| Time to finally learn how to drive!!
+| 비행체 완성? ✓ 시스템 설정? ✓ 펌웨어 설치? ✓
+| 이제 운전시키는 방법을 배워보자|Time to finally learn how to drive|!!
 
 
-**Required Equipment:**
-	* Fully built F1TENTH vehicle
-	* Pit/Host computer
-	* Logitech F710 joypad
+**ㅌ요구사항:**
+	* 완성된 AI-Racing Car
+	* Pit/Host 컴퓨터
+	* Logitech F710 조이스틱
 
-**Difficulty Level:** Intermediate
+**난이도:** 중
 
-**Approximate Time Investment:** 2 hours
-
-First, we need to set up the :ref:`workspace <doc_drive_workspace>` on the car and then we'll learn how to :ref:`control the car <drive_manualcontrol>` with a joystick.
+**대략 추정 시간:** 2 시간
+먼저 차량에 :ref:`workspace <doc_drive_workspace>` 를 설정하고 조이스틱으로 :ref:`control the car <drive_manualcontrol>`을 조정하는 것을 배워보자.
 
 .. toctree::
    :maxdepth: 1
@@ -30,9 +30,6 @@ First, we need to set up the :ref:`workspace <doc_drive_workspace>` on the car a
    drive_autonomous
 
 
-#. :ref:`Manual Control <drive_manualcontrol>` goes over how to start driving the car with a joystick once the workspace has been setup.
-#. :ref:`Odometry Calibration <doc_drive_calib_odom>` goes over how to calibrate the odometry of the vehicle
-#. :ref:`Autonomous Control <doc_drive_autonomous>` goes over how to drive autonomously with the car.
-
-.. tip::
-  If you have any build and/or setup questions, post to the `forum <http://f1tenth.org/forum.html>`_.
+#. :ref:`Manual Control <drive_manualcontrol>`은 일단 workspace가 설정되면 조이스틱으로 차량을 운전하는 방법을 알아본다.
+#. :ref:`Odometry Calibration <doc_drive_calib_odom>`은 차량의 odometry를 칼리브레이션하는 방법을 알아본다.
+#. :ref:`Autonomous Control <doc_drive_autonomous>`은 차량을 자동 운행하는 방법을 알아본다.

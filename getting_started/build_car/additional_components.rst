@@ -1,23 +1,23 @@
 .. _doc_additional_components:
 
-5. Additional Hardware Components
+1. 추가 하드웨어 컴포넌트
 ============================
 
-We have used and tested additional hardware for the F1TENTH vehicle. In this section we will provide a detailed overview of the components we tested and how to add them to the car.
+AI-Racing 차량을 위해서 추가하는 하드웨어 컴포넌트들을 테스트해봤다. 이 섹션에서 테스트한 컴포넌트와 차량에 장착하는 방법에 대해서 상세히 알아보자.
 
 1. Lidar
 ---------------------------------------------------------------
 **RP Lidar**
-Gently place the upper level chassis on top of the standoffs of the lower level chassis. The VESC should be towards the back of the car. Thread the PPM cable from the lower level chassis, through one of the Platform Deck slot.
+일반적으로 하드 샤시에 상판에 붙여서 장착한다. VESC는 차량의 뒤에 향하도록 해야한다. 하부 샤시에서 PPM 케이블 선들을 잘 정리한다.
 
 .. figure:: img/together/together_NX_00.JPG
 	:align: center
 
-	Test Imagae
+	Test Image
 
 
 
-2. VESC
+1. VESC
 ----------------------------------------------
 **VESC 1**
 

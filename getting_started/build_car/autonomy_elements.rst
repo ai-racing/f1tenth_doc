@@ -9,50 +9,51 @@ In the second part of the hardware setup we start preparing the autonomy element
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/L-V-0zzkl10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. Preparing the NVIDIA Jetson NX
+1. NVIDIA Jetson NX 준비하기
 ---------------------------------
-When you purchase a NVIDIA Jetson NX, it is attached to small plastic development board. In order to use it on the car, you will need to unscrew the Jetson NX and its Wi-Fi antenna from the development board. First of all unbox your NVIDIA Jetson NX.
+NVIDIA Jetson NX를 구입하면 작은 플라스틱 개발 보드가 붙어져 있다. 차량에서 이를 사용하기 위해서 Jetson NX와 Wi-Fi 안테나를 개발보드에서 나사를 풀어야 한다. 먼저 NVIDIA Jetson NX를 박스에서 꺼내보자.
 
 .. figure:: img/autonomy/autonomy12.JPG
 	:align: center
 
-	Unpackage the NVIDIA Jetson NX
+	NVIDIA Jetson NX 언박싱
 
 
-When you look on the Jetson NX from above you will see four screws (see red circles in the image). Please unscrew all of these 4 screws.
+위에서 Jetson NX를 보면 4개의 나사가 있다.(이미지에서 빨간 원) 4개 나사를 모두 풀도록 한다.
 
 .. figure:: img/autonomy/autonomy13.JPG
 	:align: center
 
-	Remove the screws that attach the plastic board to the NVIDIA NX
+	NVIDIA NX에 장착된 플라스틱 보드의 나사를 제거
 
 
-Afterwards you can turn the Jetson NX on the other side. You will see the plastic development board is still attached because of the two antenna cables.
+Jetson NX를 뒤집어보자. 안테나 케이블 때문에 플라스틱 보드가 여전히 붙어 있는 것을 볼 수 있다.
 
 .. figure:: img/autonomy/autonomy14.JPG
 	:align: center
 
-	Plastic development board attached to the NVIDIA NX
+	NVIDIA NX에 붙어 있는 플라스틱 개발 보드
 
 
-The two antenna cables are clipped to the Jetson NX. You have to unclip both of them. You can either use your fingers are lift them with a flat screwdriver.
+2개 안테나 케이블이 Jetson NX에 고정되어 있다. 모두 풀어준다. 손톱이나 납작한 드라이버를 사용해서 들어올린다.
 
 .. figure:: img/autonomy/autonomy15.JPG
 	:align: center
 
-	Unclip the two antennas from the NVIDA Jetson NX
+	NVIDIA Jetson NX의 2개 안테나를 제거
 
 
-Afterwards your NVIDA Jetson NX is seperated from the developer board. This is the version you can now screw to the platform deck.
+NVIDIA Jetson NX를 개발보드에서 분리한다. 플랫폼 판에 연결할 수 있다.
 
 .. figure:: img/autonomy/autonomy16.JPG
 	:align: center
 
-	Nvidia Jetson NX demounted from the developer board
+	NVIDIA Jetson NX를 개발 보드에서 분리하기
 
 
-2. Preparing the WiFi Antenna
+1. WiFi 안테나 준비하기
 ---------------------------------
+다음 단계로 
 In the next step we are providing both Wifi Antennas so we can mount them in the later steps quick and easy. First of all unpackage your antennas and demount the cables from the antennas. Remove the two brass-colored nuts holding the antennas to the L-shaped bracket, and then remove the two antennas from the bracket.
 
 .. figure:: img/autonomy/autonomy11.png

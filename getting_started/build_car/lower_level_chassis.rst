@@ -1,7 +1,7 @@
 .. _doc_build_lower_level:
 
 
-1. Lower Level Chassis
+1. 하부 샤시
 ========================
 
 We begin with setting up the Lower Level chassis. We will be removing the internal parts of the Traxxas and repopulate it with our own parts. The complete process for the first hardware part can be watched in this video tutorial too.

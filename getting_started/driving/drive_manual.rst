@@ -1,32 +1,32 @@
 .. _drive_manualcontrol:
 
-Manual Control
+수동 조정
 =================
-**Equipment Required:**
-	* Fully built F1TENTH  vehicle
-	* Pit/Host computer
-	* Logitech F710 joypad
+**요구사항:**
+	* 완성된 차량
+	* Pit/Host 컴퓨터
+	* Logitech F710 조이스틱
 
-**Approximate Time Investment:** 30 minutes - ∞ There is no time limit on fun!
+**대략 소요 시간:** 30 분 - ∞ 재밌으면 더 많은 시간을 쓸수 있다!
 
-Overview
+개요
 ------------
-Before we can get the car to drive itself, it’s a good idea to test the car to make sure it can successfully drive on the ground under human control. Controlling the car manually is also a good idea if you’ve recently re-tuned the VESC or swapped out a drivetrain component, such as the motor or gears. Doing this step early can spare you a headache debugging your code later since you will be able to rule out lower-level hardware issues if your code doesn’t work.
+차량이 스스로 운전하게 하기 전에 사람이 직접 운전하는 것이 제대로 동작하는지 테스트해야 한다. VESC나 차의 구동 부품(모터나 기어)을 교체한 경우 수동으로 조정해보자. 사전에 이런 작업을 해두면 나중에 코드가 동작하지 않는 경우 하위 하드웨어 이슈를 제외하고 디버깅을 할 수 있다.
 
-**You MUST connect to the TX2 via SSH for this section.**
+**이 섹션에서 TX2에 연결하는 경우 SSH를 이용해야만 한다.**
 
-1. Vehicle Inspection
+1. 차량 검사
 -----------------------
-We want to minimize the number of accidents so before we begin, let's first inspect our vehicle.
+시작하기 전에 많은 사고를 최소화하기 위해서 먼저 차량을 검사하자. 
 
-#. Make sure you have the car running off its LIPO battery.
-#. Plug the USB dongle receiver of the **Logitech Joypad** into the **USB hub**.
-#. Make sure you have the VESC connected.
-#. Ensure that both your car and laptop are connected to a wireless access point if you need the car connected to the Internet while you drive it. Otherwise, go back and go through :ref:`System Configuration <doc_software_setup>`.
-#. Make sure you’ve cloned the ``f110_system`` repository and set up your working directory as explained in the :ref:`previous section <doc_drive_workspace>`.
-#. This section uses the program ``tmux`` (available via apt-get) to let you run multiple terminals over one SSH connection. You can also use VNC​ if you prefer a GUI.
+#. 차량에서 LIPO 배터리를 분리한다.
+#. **Logitech Joypad**의 USB 동글 수신기를 **USB hub**에 연결하자.
+#. VESC를 연결한다.
+#. 차량과 노트북 모두 공유기에 연결한다. :ref:`System Configuration <doc_software_setup>`.
+#. `f110_system`` 저장소를 clone하고 :ref:`previous section <doc_drive_workspace>` 에서 설명한 작업 디렉토리를 설정한다
+#. 이 섹션에서는 ``tmux`` 프로그램을 사용하여 하나의 SSH 연결에서 여러 터미널을 실행시킬 수 있다. 만약 GUI가 더 좋다면 VNC를 사용할 수도 있다.
 
-2. Driving the Car
+1. 차량 운전하기
 ----------------------
 #. Open a terminal on the **Pit** laptop and SSH into the car from your computer.
 #. Once you’re in, open a terminal window and run ​``$tmux`` so that you can spawn new terminal sessions over the same SSH connection.

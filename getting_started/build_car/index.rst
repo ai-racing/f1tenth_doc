@@ -1,10 +1,10 @@
 .. _doc_build_car:
 
-Building the F1TENTH Car
+AI-Racing Car 만들기
 =====================
-In this build guidelines we are focusing on the hardware setup of our F1TENTH vehicle based on the `Traxxas Slash 4x4 Premium <https://traxxas.com/products/models/electric/6804Rslash4x4platinum>`_ Chassis and the `NVIDIA Jetson Xavier NX <https://developer.nvidia.com/embedded/jetson-xavier-nx-devkit>`_. At the end of this build guidelines, you will have a fully functioning F1TENTH Autonomous Vehicle.
+여기 가이드 정보는 AI-Racing Car의 하드웨어 셋업을 위한 정보를 제공한다. 기본이 되는 차량 프레임과 `NVIDIA Jetson Xavier NX <https://developer.nvidia.com/embedded/jetson-xavier-nx-devkit>`_ 을 기반으로 한다. 가이드를 따라하면 자율주행 AI-Racing Car를 완성시킬 수 있다.
 
-There are three main sections to the car.
+차량의 3개 주요 섹션 :
 
 .. image:: img/build_outline_NX.JPG
 
