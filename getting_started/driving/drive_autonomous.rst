@@ -1,6 +1,6 @@
 .. _doc_drive_autonomous:
 
-Autonomous Control
+자동 조정
 =================
 
 

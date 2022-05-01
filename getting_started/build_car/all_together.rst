@@ -1,113 +1,114 @@
 .. _doc_build_all_together:
 
 
-4. Putting it all together
+1. 하나로 합치기
 ============================
 
-Now that we have the autonomy elements attached to the upper level chassis, we are going to attach the upper level chassis to the lower level chassis. This part may be a tad unwieldy due to the amount of wires and cables that have to be contained. The complete process for the last hardware part can be watched in this video tutorial too.
+상위 샤시에 자율주행 관련 컴포넌트를 붙이고 상위 샤시를 하위 샤시에 붙인다. 이 부분은 약간 어려울 수 있는데 그 이유는 전선과 케이블 때문이다. 최종 하드웨어 부품에 대한 최종 완료는 아래 비디오를 참고하자.
 
 .. raw:: html
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/vNVFCq688ck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-1. Mounting the Upper Level Chassis to the Lower Level Chassis
+1. 상위 샤시를 하위 샤시에 붙이기
 ---------------------------------------------------------------
-Gently place the upper level chassis on top of the standoffs of the lower level chassis. The VESC should be towards the back of the car. Thread the PPM cable from the lower level chassis, through one of the Platform Deck slot.
+상위 샤시는 하위 샤시의 위에 스탠드오프로 연결한다. VESC는 차량의 뒷방향을 향해야 한다. 하위 샤시 PPM 케이블을 연결한다.
 
 .. figure:: img/together/together_NX_00.JPG
 	:align: center
 
-	Upper Level Chassis gently placed on top of Lower Level Chassis.
+	상위 샤시는 하위 샤시 위에 위치시킨다.
 
 
 .. figure:: img/together/together02.JPG
 	:align: center
 
-	Lidar cables carefully arranged on top of battery.
+	Lidar 케이블은 주의해서 배터리의 상단에 정리한다.
 
-Use three M3 x 10mm (these are the ones that were removed from the chassis during the Lower Level Chassis build section) screws to attach the Platform Deck to the standoffs on the lower level chassis.
+3개 M3 x 10mm 나사를 사용하여 하위 샤시에 있는 스탠드오프에 플랫폼 Deck을 장착한다.
 
-It may be useful to use a zip tie to secure the USB cable from the lidar to the platform.
+lidar에서 플랫폼으로 USB 케이블을 안전하게 하기 위해서 케이블 타이를 이용하면 편리하다.
 
 .. danger::
 	The driveshaft that runs along the length of the chassis rotates when the car moves. You can manage the cables and wires in whatever manner you like but make sure that you keep them away from any rotating assemblies, including the driveshaft. If you don't, then the rotating assemblies will pull on all the cables and the last 1-2 hours of your life will have been in vain.
 
-2. Connecting the Brushless Motor to the VESC
+1. BLDC 모터를 VESC에 연결하기
 ----------------------------------------------
-Take three 4mm to 3.5mm bullet adapters.
+3개 4mm 3.5mm 불릿 어답터 Take three 4mm to 3.5mm bullet adapters.
 
 .. figure:: img/together/together07.png
 	:align: center
 
 	4mm to 3.5mm bullet adapters.
 
-Attach the adapters to the blue, yellow, and white wires of the Brushless Motor.
+BLDC의 파랑, 노랑, 흰색 전선을 아답터에 연결한다.
 
  .. figure:: img/together/together08.JPG
  	:align: center
 
-	Blue, yellow, white wires from Brushless Motor.
+	BLDC 모터에서 파랑, 노랑, 흰색 전선
 
-The VESC also has three wires labelled **A**, **B**, and **C**.
+VESC도 3개 전선에 대해서 **A**, **B**, **C** 라고 이름 붙인다.
 
  .. figure:: img/together/together10.jpg
   	:align: center
 
 	VESCMKIII.
 
-Now, we are going to connect these to the VESC. This part is a tad tricky.
+이제 VESC에 연결한다. 이 부분이 약간 어려울 수 있다.
 
-	* **A** -> **WHITE**
-	* **B** -> **YELLOW**
-	* **C** -> **BLUE**
+	* **A** -> **흰색**
+	* **B** -> **노랑**
+	* **C** -> **파랑**
 
 .. figure:: img/together/together09.JPG
   	:align: center
 
-	Brushless Motor wires connected to the Bullet Adapters then connceted to the VESC wires.
+	BLDC 모터 전선을 Bullet 어답터에 연결하고 난 후에 VESC 전선에 연결한다.
 
 .. important::
-	After you flash the firmware on the VESC, if the vehicle runs backwards to the expected motion, simply swap the WHITE wire to "C" and BLUE wire to "A".
+	VESC에 펌웨어를 플래쉬하고 난 후에 만약 차량이 예상과 달리 반대 방향으로 움직이면 흰색 전선을 "C"에 파란색 전선을 "A"로 연결을 바꿔주면 된다.
 
 
-3. Connecting the Battery with the VESC
+1. 배터리를 VESC와 연결하기
 ----------------------------
 
-Plug the `charge adapter <https://www.amazon.com/gp/product/B078P9V99B/ref=crt_ewc_title_huc_1?ie=UTF8&psc=1&smid=A87AJ0MK8WLZZ>`_ into the battery plug,
+`충전 아답터 <https://www.amazon.com/gp/product/B078P9V99B/ref=crt_ewc_title_huc_1?ie=UTF8&psc=1&smid=A87AJ0MK8WLZZ>`_ 를 배터리 플러그에 연결
 
-.. danger:: **MAKE SURE THAT RED/POWER AND BLACK/GROUND ARE CONNECTED CORRECTLY TO THE RED/POWER AND BLACK/GROUND OF THE CHARGE ADAPTER** Fire will happen if this is plugged backwards.
+.. danger:: **충전 아답터랑 연결하는 경우 빨간색 전선은 빨간색에 검은색은 검은색에 제대로 연결해야 한다.** 반대로 연결하면 불이 날 수도 있다.
 
 .. figure:: img/llchassis/llchassis15.JPG
 	:align: center
 
-	Charge adapter cable plugged into the Lipo battery.
+	충전 아답터 케이블을 Lipo 배터리에 연결
 
-Then, connect the other side of the charge adapter to a TRX to XT90 adapter.
+다음으로 충전 아답터의 다른 쪽을 연결
 
 .. figure:: img/llchassis/llchassis16.JPG
 	:align: center
 
-	Plugging in the TRX to XT90 adapter.
+	XT90 아답터에 연결
 
-It should look like this:
+연결하면 이렇게 된다.:
 
 .. figure:: img/llchassis/llchassis17.JPG
 	:align: center
 
-	TRX to XT90 adapter installed.
+	XT90 아답터 설치
 
-After connecting the batter the car should look like this.
+배터리를 연결한 후 차량은 아래와 같다.
 
 .. figure:: img/together/together_NX_01.JPG
 	:align: center
 
-	Battery connected to the VESC.
+	VESC에 연결된 배터리
 
 
-4. Connecting the NVIDIA Jetson NX with the VESC
+1. NVIDIA Jetson NX을 VESC에 연결하기
 ----------------------------
 
+NVIDIA Jetson NX은 파워보드에 연결이 필요하다. 보드는 2.5x5.5mm 전원잭
 The NVIDIA Jetson NX needs to be connected to the powerboard. Use the barrel jack to pig tail connector. The board uses a 2.5x5.5mm power jack (MFN: PJ-036BH-SMT-TR). It is an unfortunate fact of life that the connections for barrel jacks are not standarized. For the specific barrel jack on this board, the center pin is POWER. Do not plug in a power supply whose center pin is ground. Connect one of the ends of the cable with GND on the powerboard, the other one with the 12V connector. Afterwards you can plug in the barrel jack in the NVIDIA Jetson NX.
 
 .. figure:: img/together/together_NX_03.JPG
